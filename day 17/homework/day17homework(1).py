@@ -8,6 +8,6 @@ def finding(word):
     print(word.find("e"))
 
 uppercasing("goa is the best")
-lovercasing("novatori is trash")
+lovercasing("Novatori Is Trash")
 capitalizing("goa is still the best")
 finding("hidroelectrycalstation")
