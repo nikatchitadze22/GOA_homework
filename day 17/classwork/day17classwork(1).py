@@ -14,8 +14,8 @@
 # word2 = "hidroelectrycalstation"
 # print(word2.find("a"))
 
-word3 = 'goal oriented academy'
-print(word3.capitalize())
+# word3 = 'goal oriented academy'
+# print(word3.capitalize())
 
 # .lower() ფუნქცია სტრინგში 
 # ასოებს აპატარავებს

@@ -1,8 +1,7 @@
+def manual_find(collection, find_item):
+    for index in range(len(collection)):
+        if collection[index] == find_item:
+            return index
+    return -1
 
-# სიაში შეინახეთ თქვენი ოჯახისწევრების სახელები. 
-# თქვენი დავალებაა, 
-# რომ ისინი ერთმანეთთან დააკავშიროთ
-# "-"თი და დაბეჭდოთ ერთი სთრინგის სახით.
-list1 = ['vitali', 'mari', 'ana']
-i = "-".join(list1)
-print(i)
+print(manual_find([1,2,3,4,5], 8))

@@ -5,10 +5,13 @@ print(best.split())
 # ამ best ცვლადში შენახული გვაქვს ინფორმაცია რომელიც
 # .split() ფუნქციამ წინადადება გაყო იქ 
 # სადაც დაშორება --> space ნახა
-# 
+
+
 # .join ფუნქცია list-ში მყოფ ინფორმაციას აერთიანებს
 # იმ სიმბოლოთი რომელსაც ჩვენ მივუთითებს
 
 friends = ['mate', 'nika', 'luka', 'data']
-x = ' '.join(friends)
-print(x)
+i = ' '.join(friends)
+print(i)
+
+

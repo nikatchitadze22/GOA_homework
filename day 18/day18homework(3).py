@@ -1,11 +1,11 @@
-# მომხმარებელს შემოატანინეთ სიტყვა. თქვენი დავალებაა,
-# რომ ლუწ ინდექსებზე მყოფი ასოები გარდაქმნათ uppercase-ად, 
-# ხოლო კენტ ინდექსებზე მყოფები lowecase-ად, საბოლოოდ კი დაბეჭდოთ შედეგი.
+user_word = input("Please enter uppercase word: ")
 
-name = input("hi enter your name: ")
-for i in range (0, len(name)):
-    if i % 2 == 0:
-        i.upper()
+result = ''
+
+for index in range(len(user_word)):
+    if index % 2 == 0:
+        result = result + user_word[index].upper()
     else:
-        i.lower()
-print(name)
+        result = result + user_word[index].lower()
+
+print(result)
