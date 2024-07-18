@@ -1,0 +1,61 @@
+.maindiv{
+    display: grid;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.mcd{
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: rgb(185, 155, 0);
+    height: 620px;
+}
+
+.bmw{
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: rgb(0, 100, 150);
+    height: 620px;
+}
+
+.lmb{
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: rgb(0, 130, 65);
+    height: 620px;
+}
+
+
+
+.btn1{
+    padding: 20px;
+    width: 200px;
+    color: rgb(185, 155, 0);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.btn2{
+    padding: 20px;
+    width: 200px;
+    color: rgb(0, 100, 150);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+
+.btn3{
+    padding: 20px;
+    width: 200px;
+    color: rgb(0, 130, 65);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
