@@ -1,0 +1,107 @@
+.maindiv{
+    color: gray;
+    display: grid;
+    grid-row: 400px 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.updiv{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.textdiv{
+    display: grid;
+    grid-template-rows: 50px 450px;
+    font-size: xx-large;
+    width: 500px;
+    height: 400px;
+}
+
+.h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.revdiv{
+    display: grid;
+    margin: 0;
+    grid-template-rows: 200px 50px 50px ;
+    width: 500px;
+    height: 300px;
+}
+
+.downdiv{
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: 300px 300px 300px;
+}
+
+#revdivp1{
+    display: grid;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 170px;
+    margin-bottom: 0;
+    color: rgb(120, 0, 120);
+}
+
+#revdivp2{
+    margin-left: 40px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    width: fit-content;
+    background-color: rgb(230, 230, 230);
+    display: grid;
+    margin-bottom: 0;
+    color: rgb(120, 0, 120);
+}
+
+#revdivp3{
+    display: grid;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    width: fit-content;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 0;
+    margin-left: 80px;
+    color: rgb(120, 0, 120);
+}
+
+.violetdiv{
+
+    background-color: violet;
+    border: 1px solid violet;
+    border-radius: 30px;
+    width: 200px;
+    height: 170px;
+}
+
+.yellowdiv{
+    margin-top: 30px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 30px;
+    width: 200px;
+    height: 170px;
+}
+
+.aquadiv{
+    margin-top: 60px;
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 30px;
+    width: 200px;
+    height: 170px;
+}
+
+.downdivh1{
+    margin-left: 20px;
+}
+
+.downdivp{
+    margin-left: 20px;
+}
