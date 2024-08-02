@@ -1,0 +1,59 @@
+.maindiv{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 10px;
+}
+.column1{
+    display: grid;
+    grid-template-rows: 250px, 250px;
+    gap: 10px;
+}
+
+.column2{
+    display: grid;
+    grid-template-rows: 250px, 250px;
+    gap: 10px;
+}
+
+.column3{
+    display: grid;
+    grid-template-rows: 250px, 250px;
+    gap: 10px;
+}
+
+.row1{
+    background-repeat: no-repeat;
+    height: 170px;
+    background-image: url(mogged0.jpg);
+}
+
+.row2{
+    background-repeat: no-repeat;
+    height: 170px;
+    background-image: url(mogged1.png);
+}
+
+.row3{
+    background-repeat: no-repeat;
+    height: 170px;
+    background-image: url(mogged2.png);
+}
+
+.row4{
+    background-repeat: no-repeat;
+    height: 170px;
+    background-image: url(mogged3.png);
+}
+
+.row5{
+    height: 170px;
+    background-image: url(mogged4.png);
+}
+
+.row6{
+    background-repeat: no-repeat;
+    height: 170px;
+    background-image: url(Screenshot\ 2024-04-14\ 162732.png);
+}

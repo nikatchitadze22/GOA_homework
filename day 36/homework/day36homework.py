@@ -1,16 +1,16 @@
 #        key  >   value
 dict1 = {'name': 'sandro',
-         'age': 16,
-         'salary': 500000}
+        'age': 16,
+        'salary': 500000}
 dict2 = {'name': 'nika',
-         'age': 13,
-         'salary': 300000}
+        'age': 13,
+        'salary': 300000}
 dict3 = {'name': 'dato',
-         'age': 20,
-         'salary': 10000}
+        'age': 20,
+        'salary': 10000}
 dict4 = {'name': 'gio',
-         'age': 17,
-         'salary': 200000}
+        'age': 17,
+        'salary': 200000}
 
 
 list1 = []
