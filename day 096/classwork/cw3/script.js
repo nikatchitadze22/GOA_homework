@@ -4,15 +4,14 @@ function myFilter(array) {
     for (let i = 0; i < array.length; i++) {
         let count = 0;
         for (let j = 0; j < array.length; j++) {
-        if (array[j] === array[i]) {
-            count++;
-        }
+            if (array[j] === array[i]) {
+                count++;
+            }
     }
         if (count === 2) {
             result.push(array[i]);
         }
     }
-    
     return result;
 }
 
