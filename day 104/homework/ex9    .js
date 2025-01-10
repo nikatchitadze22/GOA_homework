@@ -1,0 +1,3 @@
+// Using Destructuring with Map and Filter: Write a function that filters an array of objects based on a condition and uses destructuring to access object properties within the filter function.
+
+

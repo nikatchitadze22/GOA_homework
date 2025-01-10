@@ -1,0 +1,1 @@
+// Combining Destructuring and Rest Syntax: Use both destructuring and rest syntax together for flexible assignments.
