@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #e3e2d7; /* Optional background for the body */
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 500px;
+}
+.upper{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 170px;
+}
+
+.lower{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    background-color: rgb(41, 158, 137);
+    width: 350px;
+    height: 230px;
+    padding: 30px;
+}
+.right{
+    background-color: rgb(67, 185, 163);
+    width: 350px;
+    height: 230px;
+    padding: 30px;
+}
+
+.left_price{
+    display: flex;
+    align-items: center;
+}
