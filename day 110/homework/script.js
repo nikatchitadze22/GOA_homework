@@ -39,8 +39,8 @@ class Car{
 }
 
 const my_car1 = new Car("Mercedes", "silver", 2015)
-const my_car2 = new Car("Mercedes", "silver", 2015)
-const my_car3 = new Car("Mercedes", "silver", 2015)
+const my_car2 = new Car("Koenigsegg", "white", 2021)
+const my_car3 = new Car("Ferrari F40", "red", 1995)
 my_car1.get_info()
 my_car2.get_info()
 my_car3.get_info()
@@ -54,9 +54,9 @@ class Human{
     }
 
     get_info(){
-        console.log(`model: ${this.model}`);
         console.log(`color: ${this.color}`);
-        console.log(`year: ${this.height}`);
+        console.log(`weight: ${this.weight}`);
+        console.log(`height: ${this.height}`);
     }
 }
 
