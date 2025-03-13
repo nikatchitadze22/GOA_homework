@@ -8,7 +8,7 @@ fetch('https://fakestoreapi.com/products')
             color = 'green';
         } else if ([301, 302, 304].includes(res.status)) {
             color = 'blue';
-        } else if ([400, 401, 403].includes(res.status)) {
+        } else if ([400, 401, 403, 404].includes(res.status)) {
             color = 'orange';
         } else if (res.status >= 500) {
             color = 'red';
