@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Age Display</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex justify-center mt-10 space-x-4">
+        <div>
+            <label for="day" class="block">Day</label>
+            <input id="day" type="text" class="border border-gray-400 px-2 py-1 rounded">
+        </div>
+        <div>
+            <label for="month" class="block">Month</label>
+            <input id="month" type="text" class="border border-gray-400 px-2 py-1 rounded">
+        </div>
+        <div>
+            <label for="year" class="block">Year</label>
+            <input id="year" type="text" class="border border-gray-400 px-2 py-1 rounded">
+        </div>
+    </div>
+
+    <div class="flex justify-center mt-6">
+        <button id="submitBtn" class="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-300">
+            Submit
+        </button>
+    </div>
+
+    <div class="mt-10 text-center">
+        <div class="text-2xl">
+            <span id="years-h1" class="text-purple-600 font-bold"></span> years
+        </div>
+        <div class="text-2xl">
+            <span id="months-h1" class="text-purple-600 font-bold"></span> months
+        </div>
+        <div class="text-2xl">
+            <span id="days-h1" class="text-purple-600 font-bold"></span> days
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
